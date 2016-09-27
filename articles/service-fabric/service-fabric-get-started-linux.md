@@ -85,7 +85,7 @@ The [Azure cross-platform CLI][azure-xplat-cli-github] includes commands for int
 3. Create a symlink from the bin/azure folder of the cloned repo to /usr/bin/azure so that it's added to your path and commands are available from any directory.
 
     ```bash
-    sudo ln -s $(pwd)/bin/azure /usr/bin/azure/
+    sudo ln -s $(pwd)/bin/azure /usr/bin/azure
     ```
 
 4. Finally, enable auto-completion Service Fabric commands.
@@ -125,7 +125,7 @@ The Java SDK provides the libraries and templates required to build Service Fabr
 2. Run the SDK setup script.
 
     ```bash
-    sudo /opt/microsoft/sdk/servicefabric/java/servicefabricsdkjava.sh
+    sudo /opt/microsoft/sdk/servicefabric/java/sdkjavasetup.sh
     ```
 
 You can install the Eclipse plugin for Service Fabric from within the Eclipse IDE.
@@ -155,7 +155,7 @@ The .NET Core SDK provides the libraries and templates required to build Service
 2. Run the SDK setup script.
 
     ```bash
-    sudo  /opt/microsoft/sdk/servicefabric/csharp/servicefabricsdkcsharp.sh
+    sudo  /opt/microsoft/sdk/servicefabric/csharp/sdkcsharpsetup.sh
     ```
 
 ## Next steps
